@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>كنافة وبسبوسة | طعم التراث بجودة لا تقاوم</title>
+<meta name="description" content="كنافة وبسبوسة - أشهى أنواع الكنافة والبسبوسة الشرقية بمكونات طبيعية وطعم أصيل. اطلب الآن عبر واتساب.">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800;900&family=Tajawal:wght@400;500;700;800&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="Style.css">
+</head>
+<body>
+
+<!-- ================= NAVBAR ================= -->
+<header class="navbar" id="navbar">
+    <div class="navbar__inner container">
+
+        <a href="#hero" class="navbar__brand" aria-label="كنافة وبسبوسة - الصفحة الرئيسية">
+            <div class="brand-logo">
+                <span class="brand-logo__ar">كنافة<br>وبسبوسة</span>
+            </div>
+        </a>
+
+        <nav class="navbar__nav" id="navMenu" aria-label="التنقل الرئيسي">
+            <button class="navbar__close" id="navClose" aria-label="إغلاق القائمة">&times;</button>
+            <ul class="nav-links">
+                <li><a href="#hero" class="nav-link active" data-nav>الرئيسية</a></li>
+                <li><a href="#menu" class="nav-link" data-nav>المنيو</a></li>
+                <li><a href="#offers" class="nav-link" data-nav>العروض</a></li>
+                <li><a href="#about" class="nav-link" data-nav>من نحن</a></li>
+                <li><a href="#contact" class="nav-link" data-nav>تواصل معنا</a></li>
+            </ul>
+        </nav>
+
+        <div class="navbar__actions">
+            <a href="#" class="btn btn--whatsapp" id="whatsappOrderBtn" aria-label="اطلب الآن عبر واتساب">
+                <svg class="icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38a9.9 9.9 0 0 0 4.74 1.2h.01c5.46 0 9.9-4.45 9.9-9.91C21.96 6.45 17.5 2 12.04 2Zm5.8 14.02c-.24.68-1.4 1.3-1.94 1.38-.5.08-1.1.11-1.78-.11a15.3 15.3 0 0 1-1.6-.6c-2.83-1.22-4.67-4.06-4.81-4.25-.14-.19-1.15-1.53-1.15-2.92 0-1.39.73-2.07.99-2.35.26-.28.57-.35.76-.35.19 0 .38 0 .55.01.18.01.41-.07.64.49.24.57.81 1.97.88 2.11.07.14.12.31.02.5-.09.19-.14.31-.28.48-.14.17-.29.37-.42.5-.14.14-.28.29-.12.57.16.28.71 1.17 1.53 1.9 1.05.94 1.94 1.23 2.22 1.37.28.14.44.12.6-.07.17-.19.71-.83.9-1.11.19-.28.38-.24.64-.14.26.09 1.65.78 1.94.92.28.14.47.21.54.33.07.13.07.71-.17 1.39Z"/></svg>
+                <span>اطلب الآن</span>
+            </a>
+            <button class="navbar__toggle" id="navToggle" aria-label="فتح القائمة" aria-expanded="false">
+                <span></span><span></span><span></span>
+            </button>
+            <a href="tel:01013222294" class="btn btn--call" aria-label="اتصل بينا دلوقتي">
+  <svg class="icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+    <path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.24.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/>
+  </svg>
+  <span>اتصل بينا</span>
+</a>
+        </div>
+
+    </div>
+</header>
+<div class="nav-overlay" id="navOverlay"></div>
+
+<main>
+
+<!-- ================= HERO ================= -->
+<section class="hero" id="hero">
+    <div class="hero__pattern" aria-hidden="true"></div>
+    <div class="hero__glow hero__glow--1" aria-hidden="true"></div>
+    <div class="hero__glow hero__glow--2" aria-hidden="true"></div>
+    <div class="hero__particles" id="heroParticles" aria-hidden="true"></div>
+
+    <div class="container hero__inner">
+        <div class="hero__content">
+            <div class="hero__badge fade-in-up">أشهى حلا التراث الشرقي</div>
+            <h1 class="hero__title fade-in-up" style="--d:.08s">
+                <span class="hero__title-line hero__title-line--stroke">كنافة</span>
+                <span class="hero__title-line hero__title-line--fill">وبسبوسة</span>
+            </h1>
+            <p class="hero__subtitle fade-in-up" style="--d:.16s">طعم التراث.. بجودة لا تقاوم</p>
+
+            <div class="hero__actions fade-in-up" style="--d:.24s">
+                <a href="#menu" class="btn btn--accent">
+                    <span>استعرض المنيو</span>
+                    <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 4v16m0 0-6-6m6 6 6-6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </a>
+                <button class="btn btn--outline" id="printMenuBtn" aria-label="طباعة المنيو">
+                    <span>طباعة المنيو</span>
+                    <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M6 9V2h12v7M6 18H4a1 1 0 0 1-1-1v-6a1 1 0 0 1 1-1h16a1 1 0 0 1 1 1v6a1 1 0 0 1-1 1h-2M6 14h12v8H6z" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </button>
+            </div>
+        </div>
+
+        <div class="hero__visual fade-in-up" style="--d:.3s">
+            <div class="hero__plate-glow" aria-hidden="true"></div>
+            <img src="assets/images/WhatsApp Image 2026-08-09 at 9.29.04 PM.jpeg" alt="طبق كنافة ساخنة مزينة بالفستق" class="hero__image" id="heroImage">
+        </div>
+    </div>
+
+    <div class="hero__scroll-cue" aria-hidden="true"><span></span></div>
+</section>
+
+<!-- ================= MENU ================= -->
+<section class="menu-section" id="menu">
+    <div class="container">
+
+        <div class="section-head reveal">
+            <span class="section-eyebrow">منيونا</span>
+            <h2 class="section-title">استكشف تشكيلتنا</h2>
+            <p class="section-desc">مجموعة مختارة بعناية من ألذ أصناف الكنافة والبسبوسة، محضّرة طازجة يوميًا</p>
+        </div>
+
+        <div class="menu-controls reveal">
+            <div class="search-bar">
+                <svg class="icon search-bar__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3" stroke-linecap="round"/></svg>
+                <input type="text" id="searchInput" class="search-bar__input" placeholder="ابحث عن صنف..." aria-label="ابحث عن صنف">
+                <button class="search-bar__clear" id="searchClear" aria-label="مسح البحث" hidden>&times;</button>
+            </div>
+
+            <div class="category-filters" id="categoryFilters" role="tablist" aria-label="تصنيفات المنيو">
+                <!-- filled by JS -->
+            </div>
+        </div>
+
+        <p class="menu-results-count" id="resultsCount" aria-live="polite"></p>
+
+        <div class="products-grid" id="productsGrid">
+            <!-- product cards injected by JS -->
+        </div>
+
+        <div class="empty-state" id="emptyState" hidden>
+            <div class="empty-state__emoji">😔</div>
+            <p>لم نجد هذا الصنف</p>
+            <button class="btn btn--outline" id="resetSearchBtn">عرض كل الأصناف</button>
+        </div>
+
+    </div>
+</section>
+
+<!-- ================= FEATURES ================= -->
+<section class="features" id="offers">
+    <div class="container features__grid">
+
+        <article class="feature-card reveal">
+            <div class="feature-card__icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M4 21h16M6 21V10a6 6 0 0 1 12 0v11M6 10c0-1 .5-2 2-2M18 10c0-1-.5-2-2-2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </div>
+            <h3>محضّر يوميًا</h3>
+            <p>طازة كل يوم</p>
+        </article>
+
+        <article class="feature-card reveal" style="--d:.08s">
+            <div class="feature-card__icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M12 21s-7.5-4.6-9.5-9.2C1 8 2.8 4.7 6.2 4.1c2-.3 3.9.7 5.8 2.9 1.9-2.2 3.8-3.2 5.8-2.9 3.4.6 5.2 3.9 3.7 7.7C19.5 16.4 12 21 12 21Z" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </div>
+            <h3>طعم أصيل</h3>
+            <p>وصفات تراثية</p>
+        </article>
+
+        <article class="feature-card reveal" style="--d:.16s">
+            <div class="feature-card__icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M12 2c-3 3-5 6-5 9a5 5 0 0 0 10 0c0-3-2-6-5-9Z" stroke-linecap="round" stroke-linejoin="round"/><path d="M12 22v-6" stroke-linecap="round"/></svg>
+            </div>
+            <h3>مكونات طبيعية</h3>
+            <p>أجود المكونات</p>
+        </article>
+
+        <article class="feature-card reveal" style="--d:.24s">
+            <div class="feature-card__icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M12 2 3 6v6c0 5 4 8.5 9 10 5-1.5 9-5 9-10V6l-9-4Z" stroke-linecap="round" stroke-linejoin="round"/><path d="m9 12 2 2 4-4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </div>
+            <h3>جودة عالية</h3>
+            <p>نهتم بكل تفصيلة</p>
+        </article>
+
+    </div>
+</section>
+
+<!-- ================= ABOUT ================= -->
+<section class="about" id="about">
+    <div class="container about__inner">
+        <div class="about__visual reveal">
+            <img src="assets/images/3.jpeg" alt="طبق بسبوسة تقليدية" class="about__image" loading="lazy">
+        </div>
+        <div class="about__content reveal" style="--d:.1s">
+            <span class="section-eyebrow">من نحن</span>
+            <h2 class="section-title section-title--start">حكاية حلاوة موروثة</h2>
+            <p class="about__text">
+                منذ البداية، حرصنا في "كنافة وبسبوسة" على تقديم نكهات التراث الشرقي الأصيل بلمسة عصرية راقية.
+                نستخدم أجود المكونات الطبيعية، ونحضّر كل قطعة بحب وعناية لنقدّم لكم تجربة حلويات لا تُنسى في كل مناسبة.
+            </p>
+            <ul class="about__list">
+                <li>خبرة تمتد لسنوات في صناعة الحلويات الشرقية</li>
+                <li>مكونات طازجة تُختار يوميًا بعناية فائقة</li>
+                <li>تحضير يومي يضمن الطزاجة في كل قطعة</li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<!-- ================= SOCIAL ================= -->
+<section class="social">
+    <div class="container social__inner reveal">
+        <span class="section-ornament" aria-hidden="true">✦</span>
+        <h2 class="section-title">تابعنا على السوشيال ميديا</h2>
+        <p class="section-desc">تابع أحدث العروض والأصناف الجديدة</p>
+
+        <div class="social__icons">
+            <a href="https://www.facebook.com/konafawebasbosa" class="social-icon social-icon--facebook" target="_blank" rel="noopener" aria-label="فيسبوك">
+                <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M13.5 22v-8.5H16l.4-3.2h-2.9V8.3c0-.9.3-1.6 1.6-1.6H16.5V3.8c-.3 0-1.4-.1-2.6-.1-2.6 0-4.4 1.6-4.4 4.5v2.9H6.9V14.5H9.5V22h4Z"/></svg>
+                <span>فيسبوك</span>
+            </a>
+            <a href="https://www.instagram.com/konafawebasbosaksa?igsh=MTBxZmxsdHdyeTF0eQ==" class="social-icon social-icon--instagram" target="_blank" rel="noopener" aria-label="انستجرام">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1"/></svg>
+                <span>انستجرام</span>
+            </a>
+            <a href="https://vm.tiktok.com/ZS9hoDURYhHH1-oG4Hb/" class="social-icon social-icon--tiktok" target="_blank" rel="noopener" aria-label="تيك توك">
+                <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M16.5 2h-3v13.7a2.8 2.8 0 1 1-2-2.68V9.9a5.9 5.9 0 1 0 5 5.83V8.2a7.4 7.4 0 0 0 4.5 1.5V6.6A4.4 4.4 0 0 1 16.5 2Z"/></svg>
+                <span>تيك توك</span>
+            </a>
+           <a href="https://wa.me/201013222294"
+   class="social-icon social-icon--whatsapp"
+   target="_blank"
+   rel="noopener noreferrer"
+   aria-label="واتساب">
+    <svg xmlns="http://www.w3.org/2000/svg"
+         viewBox="0 0 24 24"
+         width="32"
+         height="32"
+         fill="currentColor">
+        <path d="M12.04 2C6.49 2 2 6.49 2 12.04c0 1.77.46 3.5 1.34 5.03L2 22l5.08-1.33a10 10 0 0 0 4.96 1.31h.01c5.55 0 10.04-4.49 10.04-10.04S17.59 2 12.04 2zm0 18.32h-.01a8.31 8.31 0 0 1-4.24-1.16l-.3-.18-3.02.79.81-2.94-.19-.3a8.31 8.31 0 1 1 6.95 3.79zm4.56-6.23c-.25-.13-1.48-.73-1.71-.81-.23-.08-.4-.13-.57.13-.17.25-.65.81-.8.98-.15.17-.3.19-.55.06-.25-.13-1.04-.38-1.98-1.21-.73-.65-1.22-1.45-1.36-1.7-.14-.25-.01-.39.11-.52.11-.11.25-.3.38-.45.13-.15.17-.25.25-.42.08-.17.04-.32-.02-.45-.06-.13-.57-1.36-.78-1.86-.21-.49-.42-.42-.57-.43h-.49c-.17 0-.45.06-.68.32-.23.25-.89.87-.89 2.11s.91 2.45 1.04 2.62c.13.17 1.78 2.72 4.31 3.81.6.26 1.07.42 1.44.54.61.19 1.17.16 1.61.1.49-.07 1.48-.61 1.69-1.19.21-.59.21-1.09.15-1.19-.06-.1-.23-.16-.48-.29z"/>
+    </svg>
+
+    <span>واتساب</span>
+</a>
+            <a href="https://youtube.com/@konafabasbosaofiicial?si=r4JIB9tjPa7laNsK" class="social-icon social-icon--youtube" target="_blank" rel="noopener" aria-label="يوتيوب">
+                <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M22 12s0-3.2-.4-4.7a2.9 2.9 0 0 0-2-2C17.9 5 12 5 12 5s-5.9 0-7.6.3a2.9 2.9 0 0 0-2 2C2 8.8 2 12 2 12s0 3.2.4 4.7a2.9 2.9 0 0 0 2 2C6.1 19 12 19 12 19s5.9 0 7.6-.3a2.9 2.9 0 0 0 2-2C22 15.2 22 12 22 12ZM10 15.2V8.8l6 3.2-6 3.2Z"/></svg>
+                <span>يوتيوب</span>
+            </a>
+        </div>
+    </div>
+</section>
+
+</main>
+
+<!-- ================= FOOTER ================= -->
+<footer class="footer" id="contact">
+    <div class="footer__pattern" aria-hidden="true"></div>
+    <div class="container footer__inner">
+
+        <div class="footer__col footer__col--brand">
+            <div class="brand-logo brand-logo--footer">
+                <span class="brand-logo__ar">كنافة<br>وبسبوسة</span>
+            </div>
+            <h3>كنافة وبسبوسة</h3>
+            <p>طعم التراث.. بجودة لا تقاوم</p>
+        </div>
+
+        <div class="footer__col">
+            <h4>روابط سريعة</h4>
+            <ul class="footer__links">
+                <li><a href="#hero">الرئيسية</a></li>
+                <li><a href="#menu">المنيو</a></li>
+                <li><a href="#offers">العروض</a></li>
+                <li><a href="#about">من نحن</a></li>
+                <li><a href="#contact">تواصل معنا</a></li>
+            </ul>
+        </div>
+
+        <div class="footer__col">
+            <h4>ساعات العمل</h4>
+            <p class="footer__hours">من 11:00 صباحًا<br>حتى 4:00 منتصف الليل</p>
+            <span class="footer__badge">كل يوم</span>
+        </div>
+
+        <div class="footer__col">
+            <h4>تواصل معنا</h4>
+            <ul class="footer__links">
+                <li><a href="https://wa.me/201013222294" target="_blank" rel="noopener">واتساب01013222294</a></li>
+                <li><a href="mailto:info@kunafa-basbousa.com">info@kunafa-basbousa.com</a></li>
+            </ul>
+        </div>
+
+    </div>
+
+    <div class="footer__bottom">
+        <p>© <span id="year"></span> كنافة وبسبوسة - جميع الحقوق محفوظة</p>
+    </div>
+</footer>
+
+<!-- ================= BACK TO TOP ================= -->
+<button class="back-to-top" id="backToTop" aria-label="العودة للأعلى">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><path d="m5 15 7-7 7 7" stroke-linecap="round" stroke-linejoin="round"/></svg>
+</button>
+
+<!-- ================= PRINTABLE MENU (hidden on screen) ================= -->
+<div class="print-menu" id="printMenu" aria-hidden="true">
+    <div class="print-menu__header">
+        <h1>كنافة وبسبوسة</h1>
+        <p>طعم التراث.. بجودة لا تقاوم</p>
+    </div>
+    <div id="printMenuBody"></div>
+</div>
+
+<script src="Script.js"></script>
+
+</body>
+</html>
