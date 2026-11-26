@@ -12,7 +12,7 @@ const WHATSAPP_MESSAGE = "مرحبًا، أريد طلب من كنافة وبس�
 const products = [
     // البولات
     { name: "العملاقة", category: "العروض", price: 295, image: "assets/images/5555.jpeg", description: "كنافة طازجة" },
-    { name: " المانجوجة", category: "العروض", price: 10, image: "assets/images/85555.jpeg", description: "كنافة طازجة بقطع المانجو" },
+    { name: " المانجوجة", category: "العروض", price: 100, image: "assets/images/85555.jpeg", description: "كنافة طازجة بقطع المانجو" },
  { name: "عرض الجلاش", category: "العروض", price: 35, image: "assets/images/ثث3ص.jpeg", description: "جلاش مقرمش بالكريمة" },
   { name: "عرض البسبوسه", category: "العروض", price: 35, image: "assets/images/ققق.jpeg", description: "بسبوسة تقليدية " },
    { name: "عرض المدلعه", category: "العروض", price: 40, image: "assets/images/ثثثث3.jpeg", description: "المتدلعة الشرقي" },
